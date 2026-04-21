@@ -4,10 +4,7 @@
 
 ### From Raw Data → Insights → Business Decisions
 
-👩‍💻 **Bejugam Manasa**
-📍 Hyderabad, Telangana
-📧 [bejugammanasa866@gmail.com](mailto:bejugammanasa866@gmail.com)
-🔗 LinkedIn: https://linkedin.com/in/manasa-bejugam-b68850342
+# 👩‍💻 [Bejugam Manasa Portfolio](https://manasabejugam131.github.io/Manasa-DataAnalyst-Internship-Portfolio/)
 
 ---
 
