@@ -1,1 +1,558 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bejugam Manasa — Aspiring Data Analyst & UI/UX Designer. Crafting data-driven insights and elegant digital experiences from Hyderabad." />
+  <title>Bejugam Manasa — Data Analyst & UI/UX Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo" aria-label="Home">
+        <span class="nav__logo-mark">M</span>
+        <span class="nav__logo-text">Manasa</span>
+      </a>
+      <nav class="nav__links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="theme-toggle__icon theme-toggle__sun">☀</span>
+          <span class="theme-toggle__icon theme-toggle__moon">◑</span>
+        </button>
+        <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#about" class="nav__mobile-link">About</a>
+      <a href="#skills" class="nav__mobile-link">Skills</a>
+      <a href="#projects" class="nav__mobile-link">Projects</a>
+      <a href="#experience" class="nav__mobile-link">Experience</a>
+      <a href="#contact" class="nav__mobile-link">Contact</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__orb hero__orb--3"></div>
+        <canvas class="hero__grid" id="heroGrid"></canvas>
+      </div>
+      <div class="hero__content">
+        <div class="hero__eyebrow reveal">
+          <span class="hero__dot"></span>
+          Available for opportunities
+        </div>
+        <h1 class="hero__title reveal reveal--delay-1">
+          Turning data into<br />
+          <span class="hero__title-accent">decisions</span><br />
+          and pixels into<br />
+          <span class="hero__title-accent">experiences.</span>
+        </h1>
+        <p class="hero__sub reveal reveal--delay-2">
+          I'm <strong>Manasa</strong> — an aspiring Data Analyst & UI/UX Designer from Hyderabad, building a career at the intersection of analytical thinking and human-centered design.
+        </p>
+        <div class="hero__cta reveal reveal--delay-3">
+          <a href="#projects" class="btn btn--primary">View My Work</a>
+          <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+        </div>
+        <div class="hero__stats reveal reveal--delay-4">
+          <div class="hero__stat">
+            <span class="hero__stat-num">3+</span>
+            <span class="hero__stat-label">Hackathons</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">4+</span>
+            <span class="hero__stat-label">Projects</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">2</span>
+            <span class="hero__stat-label">Clubs Founded/Led</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll-hint">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__left">
+            <div class="section-label reveal">About Me</div>
+            <h2 class="section-title reveal reveal--delay-1">I don't just analyse data — I tell its story.</h2>
+            <p class="about__body reveal reveal--delay-2">
+              Growing up fascinated by patterns — in mathematics, in design, in human behaviour — I found my calling at the crossroads of data and creativity. When numbers alone feel cold and interfaces feel like noise, I ask: <em>what does this actually mean for a person?</em>
+            </p>
+            <p class="about__body reveal reveal--delay-3">
+              Currently pursuing my B.Tech at KPRIT, Hyderabad, I'm building deep expertise in data analytics while simultaneously training my eye for UI/UX design. I co-founded my college's Math Club, led a team in the Innovation Marathon, and competed in the Smart India Hackathon — each experience sharpening my belief that the best solutions live where logic meets empathy.
+            </p>
+            <p class="about__body reveal reveal--delay-4">
+              My goal: to join a forward-thinking team where I can translate complex data into intuitive, beautiful, and impactful digital experiences.
+            </p>
+            <div class="about__tags reveal reveal--delay-5">
+              <span class="tag">Data Analytics</span>
+              <span class="tag">UI/UX Design</span>
+              <span class="tag">Python</span>
+              <span class="tag">Problem Solving</span>
+              <span class="tag">Leadership</span>
+            </div>
+          </div>
+          <div class="about__right reveal reveal--delay-2">
+            <div class="about__card">
+              <div class="about__card-inner">
+                <div class="about__avatar">BM</div>
+                <div class="about__info">
+                  <h3>Bejugam Manasa</h3>
+                  <p>Data Analyst & UI/UX Designer</p>
+                </div>
+                <ul class="about__details">
+                  <li>
+                    <span class="about__detail-icon">📍</span>
+                    <span>Hyderabad, Telangana</span>
+                  </li>
+                  <li>
+                    <span class="about__detail-icon">🎓</span>
+                    <span>B.Tech, KPRIT (2024–Present)</span>
+                  </li>
+                  <li>
+                    <span class="about__detail-icon">✉️</span>
+                    <span>bejugammanasa866@gmail.com</span>
+                  </li>
+                </ul>
+                <a href="https://linkedin.com/in/manasa-bejugam-b68850342" target="_blank" rel="noopener" class="about__linkedin">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                  Connect on LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Skills</div>
+          <h2 class="section-title">A toolkit built for<br /><span class="accent">impact.</span></h2>
+        </div>
+        <div class="skills__grid">
+
+          <div class="skill-category reveal reveal--delay-1">
+            <div class="skill-category__header">
+              <span class="skill-category__icon">⌨</span>
+              <h3>Programming</h3>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar" data-skill="Python" data-level="72">
+                <div class="skill-bar__meta"><span>Python</span><span class="skill-bar__pct">72%</span></div>
+                <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+              </div>
+              <div class="skill-bar" data-skill="Java" data-level="60">
+                <div class="skill-bar__meta"><span>Java</span><span class="skill-bar__pct">60%</span></div>
+                <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+              </div>
+              <div class="skill-bar" data-skill="SQL" data-level="68">
+                <div class="skill-bar__meta"><span>SQL</span><span class="skill-bar__pct">68%</span></div>
+                <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category reveal reveal--delay-2">
+            <div class="skill-category__header">
+              <span class="skill-category__icon">📊</span>
+              <h3>Data & Analytics</h3>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar" data-skill="MS Excel" data-level="80">
+                <div class="skill-bar__meta"><span>MS Excel</span><span class="skill-bar__pct">80%</span></div>
+                <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+              </div>
+              <div class="skill-bar" data-skill="Data Analytics" data-level="55">
+                <div class="skill-bar__meta"><span>Data Analytics</span><span class="skill-bar__pct">55%</span></div>
+                <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category reveal reveal--delay-3">
+            <div class="skill-category__header">
+              <span class="skill-category__icon">🎨</span>
+              <h3>Design</h3>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar" data-skill="Canva" data-level="88">
+                <div class="skill-bar__meta"><span>Canva</span><span class="skill-bar__pct">88%</span></div>
+                <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+              </div>
+              <div class="skill-bar" data-skill="Adobe Express" data-level="75">
+                <div class="skill-bar__meta"><span>Adobe Express</span><span class="skill-bar__pct">75%</span></div>
+                <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+              </div>
+              <div class="skill-bar" data-skill="UI/UX Design" data-level="60">
+                <div class="skill-bar__meta"><span>UI/UX Design</span><span class="skill-bar__pct">60%</span></div>
+                <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category reveal reveal--delay-4">
+            <div class="skill-category__header">
+              <span class="skill-category__icon">💡</span>
+              <h3>Soft Skills</h3>
+            </div>
+            <div class="soft-skills">
+              <div class="soft-skill">
+                <div class="soft-skill__ring" data-pct="90">
+                  <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="28" class="soft-skill__bg"/><circle cx="32" cy="32" r="28" class="soft-skill__progress"/></svg>
+                  <span class="soft-skill__num">90%</span>
+                </div>
+                <p>Leadership</p>
+              </div>
+              <div class="soft-skill">
+                <div class="soft-skill__ring" data-pct="92">
+                  <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="28" class="soft-skill__bg"/><circle cx="32" cy="32" r="28" class="soft-skill__progress"/></svg>
+                  <span class="soft-skill__num">92%</span>
+                </div>
+                <p>Problem Solving</p>
+              </div>
+              <div class="soft-skill">
+                <div class="soft-skill__ring" data-pct="85">
+                  <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="28" class="soft-skill__bg"/><circle cx="32" cy="32" r="28" class="soft-skill__progress"/></svg>
+                  <span class="soft-skill__num">85%</span>
+                </div>
+                <p>Communication</p>
+              </div>
+              <div class="soft-skill">
+                <div class="soft-skill__ring" data-pct="88">
+                  <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="28" class="soft-skill__bg"/><circle cx="32" cy="32" r="28" class="soft-skill__progress"/></svg>
+                  <span class="soft-skill__num">88%</span>
+                </div>
+                <p>Creative Thinking</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Projects</div>
+          <h2 class="section-title">Work that speaks<br /><span class="accent">louder than words.</span></h2>
+        </div>
+        <div class="projects__grid">
+
+          <article class="project-card reveal reveal--delay-1" data-type="data">
+            <div class="project-card__header">
+              <div class="project-card__icon">📈</div>
+              <div class="project-card__badges">
+                <span class="badge badge--data">Data Analytics</span>
+              </div>
+            </div>
+            <h3 class="project-card__title">Sales Performance Dashboard</h3>
+            <p class="project-card__desc">Built an interactive Excel + Python dashboard to visualise quarterly sales KPIs for a retail dataset. Identified a 23% revenue dip in Q3 by surfacing region-level patterns hidden in raw spreadsheets.</p>
+            <div class="project-card__stack">
+              <span>Python</span><span>Pandas</span><span>Excel</span><span>Matplotlib</span>
+            </div>
+            <div class="project-card__footer">
+              <span class="project-card__metric">📊 5K+ rows analysed</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal--delay-2" data-type="design">
+            <div class="project-card__header">
+              <div class="project-card__icon">🎨</div>
+              <div class="project-card__badges">
+                <span class="badge badge--design">UI/UX Case Study</span>
+              </div>
+            </div>
+            <h3 class="project-card__title">Campus Connect App — UX Redesign</h3>
+            <p class="project-card__desc">Redesigned a college event management app from scratch after identifying usability gaps through student surveys. Delivered a Canva-prototyped design reducing navigation steps by 40%.</p>
+            <div class="project-card__stack">
+              <span>Canva</span><span>User Research</span><span>Wireframing</span><span>Prototyping</span>
+            </div>
+            <div class="project-card__footer">
+              <span class="project-card__metric">👥 50+ students surveyed</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal--delay-3" data-type="data">
+            <div class="project-card__header">
+              <div class="project-card__icon">🏙</div>
+              <div class="project-card__badges">
+                <span class="badge badge--data">Analytics</span>
+                <span class="badge badge--hackathon">Hackathon</span>
+              </div>
+            </div>
+            <h3 class="project-card__title">Smart India Hackathon — Urban Water Audit</h3>
+            <p class="project-card__desc">Collaborated in a cross-functional team to propose a data-driven water consumption audit system for urban municipalities. Conducted root-cause analysis on regional distribution inefficiencies.</p>
+            <div class="project-card__stack">
+              <span>Python</span><span>SQL</span><span>Excel</span><span>Problem Framing</span>
+            </div>
+            <div class="project-card__footer">
+              <span class="project-card__metric">🏆 National-level competition</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal--delay-4" data-type="design">
+            <div class="project-card__header">
+              <div class="project-card__icon">📚</div>
+              <div class="project-card__badges">
+                <span class="badge badge--design">Brand Design</span>
+              </div>
+            </div>
+            <h3 class="project-card__title">Math Club — Brand Identity & Community</h3>
+            <p class="project-card__desc">Co-founded and designed the complete visual identity for KPRIT's Math Club — logo, social templates, event posters using Adobe Express and Canva. Grew membership to 60+ students in the first semester.</p>
+            <div class="project-card__stack">
+              <span>Adobe Express</span><span>Canva</span><span>Community Building</span><span>Leadership</span>
+            </div>
+            <div class="project-card__footer">
+              <span class="project-card__metric">🚀 60+ members onboarded</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE / TIMELINE -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Experience</div>
+          <h2 class="section-title">The journey so far.</h2>
+        </div>
+        <div class="timeline">
+
+          <div class="timeline__item reveal">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2024 – Present</span>
+              <h3 class="timeline__title">B.Tech in Computer Science</h3>
+              <p class="timeline__org">Kommuri Pratap Reddy Institute of Technology, Hyderabad</p>
+              <p class="timeline__desc">Pursuing core CS fundamentals while actively developing specialisations in data analytics and UI/UX design. Active in technical and extracurricular clubs.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal reveal--delay-1">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2024</span>
+              <h3 class="timeline__title">Co-Founder — Math Club, KPRIT</h3>
+              <p class="timeline__org">Kommuri Pratap Reddy Institute of Technology</p>
+              <p class="timeline__desc">Identified a gap in quantitative learning culture on campus, proposed the club idea, built a founding team of 5, and grew membership to 60+ students within one semester. Designed all visual branding.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal reveal--delay-2">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2024</span>
+              <h3 class="timeline__title">Team Leader — Innovation Marathon</h3>
+              <p class="timeline__org">KPRIT Annual Innovation Challenge</p>
+              <p class="timeline__desc">Led a cross-functional team of 4 to ideate and prototype a solution under a 24-hour constraint. Managed task allocation, stakeholder communication, and final presentation delivery.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal reveal--delay-3">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2024</span>
+              <h3 class="timeline__title">Participant — Smart India Hackathon</h3>
+              <p class="timeline__org">Government of India Initiative</p>
+              <p class="timeline__desc">Selected to participate in India's largest hackathon. Worked on a real-world public sector problem with a focus on data analysis and solution viability at scale.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal reveal--delay-4">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2024</span>
+              <h3 class="timeline__title">Paper Presenter — Technical Symposium</h3>
+              <p class="timeline__org">KPRIT Technical Events</p>
+              <p class="timeline__desc">Researched and presented a technical paper on an emerging computing topic. Developed skills in academic writing, structured argumentation, and confident public presentation.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal reveal--delay-5">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">2022 – 2024</span>
+              <h3 class="timeline__title">Intermediate — MPC Stream</h3>
+              <p class="timeline__org">Narayana Junior College, Hyderabad</p>
+              <p class="timeline__desc">Completed Maths, Physics, Chemistry with a strong academic foundation. Developed rigorous analytical thinking that now underpins my data work.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section achievements" id="achievements">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Achievements</div>
+          <h2 class="section-title">Milestones that<br /><span class="accent">define me.</span></h2>
+        </div>
+        <div class="achievements__grid">
+
+          <div class="achievement-card reveal reveal--delay-1">
+            <div class="achievement-card__icon">🇮🇳</div>
+            <h3>Smart India Hackathon</h3>
+            <p>National-level participation in India's largest hackathon, solving real public sector challenges with data-driven approaches.</p>
+          </div>
+
+          <div class="achievement-card reveal reveal--delay-2">
+            <div class="achievement-card__icon">🏆</div>
+            <h3>Innovation Marathon Leader</h3>
+            <p>Led a team to ideate and prototype a complete solution in 24 hours — combining strategic thinking with hands-on execution.</p>
+          </div>
+
+          <div class="achievement-card reveal reveal--delay-3">
+            <div class="achievement-card__icon">📐</div>
+            <h3>Math Club Co-Founder</h3>
+            <p>Built a thriving academic community from scratch, growing it to 60+ members and establishing a culture of quantitative curiosity.</p>
+          </div>
+
+          <div class="achievement-card reveal reveal--delay-4">
+            <div class="achievement-card__icon">🎤</div>
+            <h3>Paper Presenter</h3>
+            <p>Presented original technical research at a college symposium, demonstrating the ability to synthesise complex ideas for an audience.</p>
+          </div>
+
+          <div class="achievement-card reveal reveal--delay-5">
+            <div class="achievement-card__icon">🔧</div>
+            <h3>Technical Club Member</h3>
+            <p>Active member of KPRIT's technical club — participating in workshops, peer learning sessions, and skill-building events.</p>
+          </div>
+
+          <div class="achievement-card reveal reveal--delay-6">
+            <div class="achievement-card__icon">🎨</div>
+            <h3>Visual Brand Designer</h3>
+            <p>Independently designed branding, social media assets, and event materials for college clubs using Adobe Express and Canva.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact__inner">
+          <div class="contact__left reveal">
+            <div class="section-label">Contact</div>
+            <h2 class="section-title">Let's build something<br /><span class="accent">remarkable together.</span></h2>
+            <p class="contact__body">Whether you're a recruiter looking for a data-driven designer, a team building something meaningful, or just someone who wants to talk craft — my inbox is open.</p>
+            <div class="contact__channels">
+              <a href="mailto:bejugammanasa866@gmail.com" class="contact__channel">
+                <span class="contact__channel-icon">✉</span>
+                <div>
+                  <strong>Email</strong>
+                  <span>bejugammanasa866@gmail.com</span>
+                </div>
+              </a>
+              <a href="https://linkedin.com/in/manasa-bejugam-b68850342" target="_blank" rel="noopener" class="contact__channel">
+                <span class="contact__channel-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </span>
+                <div>
+                  <strong>LinkedIn</strong>
+                  <span>manasa-bejugam-b68850342</span>
+                </div>
+              </a>
+              <div class="contact__channel contact__channel--location">
+                <span class="contact__channel-icon">📍</span>
+                <div>
+                  <strong>Location</strong>
+                  <span>Hyderabad, Telangana, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact__right reveal reveal--delay-2">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Let's work together" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity or project..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary btn--full">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-icon">→</span>
+              </button>
+              <div class="form-success" id="formSuccess">
+                ✅ Message received! I'll get back to you soon.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="nav__logo-mark">M</span>
+          <span>Bejugam Manasa</span>
+        </div>
+        <p class="footer__tagline">Aspiring Data Analyst & UI/UX Designer</p>
+        <div class="footer__links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <p class="footer__copy">© 2025 Bejugam Manasa. Designed & built with intention.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
