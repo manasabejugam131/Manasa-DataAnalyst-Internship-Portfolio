@@ -46,7 +46,7 @@ Capstone Repo (This)
 ### 🔹 Task 1: Data Immersion & Wrangling
 
 📁 Repository: [Task-1 Repo](https://github.com/manasabejugam131/Data-wrangling-and-immersion-)
-
+💻 Code: [Google Colab Work Link](https://colab.research.google.com/drive/1Pgq1fj67ZwgNYgVYJ6FUS0OBMpNbKrh6?usp=sharing)
 **Focus:**
 
 * Data cleaning
@@ -61,6 +61,7 @@ Capstone Repo (This)
 ### 🔹 Task 2: Exploratory Data Analysis (EDA)
 
 📁 Repository: [Task-2 Repo](https://github.com/manasabejugam131/Task-2)
+💻 Code: [Google Colab Work Link](https://colab.research.google.com/drive/10vwZcabcSWHmUlTGdrQBR9_kiPu_ujGW?usp=sharing)
 
 **Focus:**
 
